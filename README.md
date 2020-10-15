@@ -9,3 +9,10 @@ Saw more docs, need more cowbell.
 
 these are some of the things I'd like to see in the upcoming branch...
 >>>>>>> Stashed changes
+HI
+URLS
+/mattermost-docker/volumes/app/mattermost/config
+webhook
+http://www.wrathy.io/hooks/6rqcxay4ujn3jxmft9dtsxppxc 
+
+curl -i -X POST -H 'Content-Type: application/json' -d '{"text": "Hello, this is some text, link to the overnights\nThis is more text. :tada:"}' http://www.wrathy.io/hooks/6rqcxay4ujn3jxmft9dtsxppxc
